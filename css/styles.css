@@ -1,30 +1,56 @@
-.styles {
-  font-family: "Times New Roman", serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: #626262;
+:root {
+  --general-color: #626262;
+  --paragraph-color: #b4ad9e;
+  --accent-color: #03a9f4;
+  --general-font: "Playfair Display", serif;
+  --paragraph-font: "Ubuntu", sans-serif;
 }
 
-.head-nav {
+.site-nav .link {
+  font-size: 14px;
   line-height: 1.7;
+  text-transform: uppercase;
+  font-family: var(--general-font);
+  color: var(--general-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .articles {
+  list-style-type: none;
+}
+
+.articles .paragraph {
+  font-size: 14px;
   line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--paragraph-color);
+  font-family: var(--paragraph-font);
 }
 
-.paragraph {
-  color: #b4ad9e;
-}
-
-.articles h2 {
+.articles .title {
   font-size: 30px;
+  line-height: 1.2;
+  color: var(--general-color);
+  font-family: var(--general-font);
 }
 
-.text {
+.articles .description {
+  font-size: 14px;
   line-height: 1.7;
+  color: var(--general-color);
+  font-family: var(--general-font);
 }
 
-.button {
+.articles .button {
   font-size: 20px;
+  line-height: 1.2;
+  color: var(--general-color);
+  font-family: var(--general-font);
+  cursor: pointer;
 }
