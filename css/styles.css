@@ -1,0 +1,30 @@
+.styles {
+  font-family: "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+}
+
+.head-nav {
+  line-height: 1.7;
+}
+
+.articles {
+  line-height: 1.2;
+}
+
+.paragraph {
+  color: #b4ad9e;
+}
+
+.articles h2 {
+  font-size: 30px;
+}
+
+.text {
+  line-height: 1.7;
+}
+
+.button {
+  font-size: 20px;
+}
